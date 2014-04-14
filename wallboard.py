@@ -12,7 +12,7 @@ system = system()
 ua = ua()
 configuration = ua.getConfig(system.getMacAddress())
 
-#layout = layout(configuration)
+layout = layout(configuration)
 
 while True:
 	records = []
